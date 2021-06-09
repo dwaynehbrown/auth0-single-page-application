@@ -19,4 +19,5 @@ import router from "./router";
   //handle user reload of browser
   if (sessionStorage.getItem("reload")) await router();
   sessionStorage.setItem("reload", "true");
+  
 })();
