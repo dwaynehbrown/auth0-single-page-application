@@ -1,6 +1,7 @@
 import router from "./router";
 
 (async function () {
+  
   const domain = window.env.AUTH0_DOMAIN;
   const client_id = window.env.CLIENT_ID;
   const redirect_uri = window.env.APP_URL;
